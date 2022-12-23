@@ -16,6 +16,8 @@ Here's where you can go to town on how you actually built this thing. Write as m
 
 -Would like to make an option for multiple images side by side, so students can write comparison essays
 -Add other info like Title, name, media, year
+-create conditional to rerun on errors
+-create a method to search the database
 
 ## Lessons Learned:
 
