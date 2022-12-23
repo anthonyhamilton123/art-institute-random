@@ -1,15 +1,15 @@
 # Random Art Institute Artwork Generator
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This app utilizes the Art Institute of Chicago's API to pull an image and information on a random art piece.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://anthonyhamilton123.github.io/art-institute-random
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](https://ibb.co/998p2hL)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I built this by making a random number generator, and then multiplying this by the estimated number of ID's within the collection. Then this became the source for the URL to draw information. I then designed a simple card layout that would display all this information.
 
 ## Optimizations
 *(optional)*
@@ -22,7 +22,7 @@ Here's where you can go to town on how you actually built this thing. Write as m
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned that I could make API's and design simple apps!
 
 ## Examples:
 
