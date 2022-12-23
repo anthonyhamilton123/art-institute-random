@@ -10,6 +10,11 @@ function getFetch(){
         console.log(data)
         let imgID = data.data.image_id
         document.querySelector('img').src = `https://www.artic.edu/iiif/2/${imgID}/full/843,/0/default.jpg`
+        document.querySelector('h2').innerText = data.data.title
+        document.querySelector('#artist').innerText = data.data.artist_title
+        document.querySelector('#materials').innerText = data.data.medium_display
+        document.querySelector('#year').innerText = data.data.date_display
+
       })
       .catch(err => {
           console.log(`error ${err}`)
