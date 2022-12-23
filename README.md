@@ -3,7 +3,7 @@ This app utilizes the Art Institute of Chicago's API to pull an image and inform
 
 **Link to project:** https://anthonyhamilton123.github.io/art-institute-random
 
-![alt tag](https://ibb.co/998p2hL)
+![alt tag](https://i.ibb.co/hR7gHcj/Screen-Shot-2022-12-23-at-2-34-15-PM.png)
 
 ## How It's Made:
 
