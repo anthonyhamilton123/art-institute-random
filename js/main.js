@@ -8,7 +8,8 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-        document.querySelector('img').src = `https://www.artic.edu/iiif/2/${data.data.image_id}/full/843,/0/default.jpg`
+        let imgID = data.data.image_id
+        document.querySelector('img').src = `https://www.artic.edu/iiif/2/${imgID}/full/843,/0/default.jpg`
       })
       .catch(err => {
           console.log(`error ${err}`)
@@ -16,3 +17,5 @@ function getFetch(){
 }
 
 getFetch()
+
+document.querySelector('button').addEventListener('click', getFetch)
