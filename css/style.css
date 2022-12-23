@@ -10,10 +10,69 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+*{
+  font-family: 'Sanchez', serif;
+}
+
+body{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+}
+
 img{
   display: block;
   margin: 0 auto;
+  height: 500px;
 }
+
+section{
+  margin: 20px auto;
+  width: 500px;
+  padding: 25px;
+  background-color: aliceblue;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+  color: white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover{
+  background-color: aquamarine;
+}
+
+h4{
+  color: lightgrey;
+  size: 10px;
+  text-align: right;
+}
+
+button{
+  background-color: aliceblue;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+
 
 
 /******************************************

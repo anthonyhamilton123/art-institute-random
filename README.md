@@ -7,16 +7,17 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
 ## Optimizations
 *(optional)*
 
+-create DarkMode
 -Would like to make an option for multiple images side by side, so students can write comparison essays
--Add other info like Title, name, media, year
 -create conditional to rerun on errors
+-create a way to account for all items in the collection
 -create a method to search the database
 
 ## Lessons Learned:

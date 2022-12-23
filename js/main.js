@@ -1,6 +1,6 @@
 //Example fetch using pokemonapi.co
 function getFetch(){
-  const choice = Math.floor(Math.random()*50000)
+  const choice = Math.floor(Math.random()*100000)
   console.log(choice)
   const url = 'https://api.artic.edu/api/v1/artworks/' + choice
 
