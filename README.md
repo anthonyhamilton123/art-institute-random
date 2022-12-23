@@ -15,7 +15,6 @@ I built this by making a random number generator, and then multiplying this by t
 
 - create DarkMode
 - Would like to make an option for multiple images side by side, so students can write comparison essays
-- create conditional to rerun on errors
 - create a way to account for all items in the collection
 - create a method to search the database
 
