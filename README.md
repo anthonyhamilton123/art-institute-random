@@ -17,6 +17,11 @@ I built this by making a random number generator, and then multiplying this by t
 - Would like to make an option for multiple images side by side, so students can write comparison essays
 - create a way to account for all items in the collection
 - create a method to search the database
+- make prettier
+- make edge case for null image
+- make mobile pretty version
+- update title in tab
+- rem accessibility optimization
 
 ## Lessons Learned:
 
