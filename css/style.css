@@ -18,16 +18,19 @@ body{
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  font-size: 62.5%;
 }
 
 h1{
   text-align: center;
+  font-size: 3rem;
 }
 
 img{
   display: block;
   margin: 0 auto;
-  height: 500px;
+  max-height: 600px;
 }
 
 section{
