@@ -75,7 +75,23 @@ button{
 }
 
 
+/******************************************
+/* DARK MODE
+/*******************************************/
 
+
+.darkmode{
+  background-color: #211e17;
+  color: white;
+}
+
+.darkmode > footer{
+  background-color: black;
+}
+
+.darkmode > section{
+  background-color: darkslategrey;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

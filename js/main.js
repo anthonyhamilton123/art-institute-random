@@ -1,6 +1,3 @@
-//Example fetch using pokemonapi.co
-
-
 function getFetch(){
   const choice = Math.floor(Math.random()*118808)
   console.log(choice)
@@ -25,4 +22,8 @@ function getFetch(){
 
 getFetch()
 
-document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('#newArtpiece').addEventListener('click', getFetch)
+
+document.querySelector('#darkModeToggle').addEventListener('click', () => {
+   document.querySelector('body').classList.toggle('darkmode')
+})
