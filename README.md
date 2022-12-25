@@ -13,12 +13,15 @@ I built this by making a random number generator, and then multiplying this by t
 
 ## Optimizations
 
-- create DarkMode in localStorage > pull from computer?
+- edge case if image is null
+- pull DarkMode from computer
 - Would like to make an option for multiple images side by side, so students can write comparison essays
 - create a way to account for all items in the collection
 - create a method to search the database
 - create a way to remember artworks 
 - make into mobile app
+- Add github and opensource attribution to footer
+- Add an about page to app
 
 
 ## Lessons Learned:
