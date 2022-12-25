@@ -2,6 +2,9 @@
 /* CSS
 /*******************************************/
 
+
+
+
 /* Box Model Hack */
 *{
   box-sizing: border-box;
@@ -20,6 +23,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   font-size: 62.5%;
+  padding: 0;
 }
 
 h1{
@@ -29,18 +33,23 @@ h1{
 
 h2{
   font-family: 'Sanchez';
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
 }
 
 h4{
   color: lightgrey;
-  size: 10px;
+  font-size: 1rem;
   text-align: right;
 }
 
 
 img{
-  display: block;
-  margin: 0 auto;
+  align-self: center;
+  max-width: 90%;
   max-height: 600px;
 }
 
@@ -75,11 +84,25 @@ a:hover{
   background-color: aquamarine;
 }
 
+ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li{
+  margin: 5px;
+}
+
 button{
   background-color: aliceblue;
   width: 200px;
   margin: 10px auto;
   padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
 }
 
 
@@ -101,6 +124,59 @@ button{
   background-color: darkslategrey;
 }
 
+.darkmode button{
+  background-color: darkslategray;
+  color: white;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (max-width: 750px){
+  button{
+    font-size: 1.25rem;
+  }
+  h3{
+    font-size: 1.25rem;
+  }
+  
+  h4{
+    size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 660px){
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: .75rem;
+  }
+
+  section{
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+  }
+  
+  li{
+    width: 100%;
+  
+  }
+
+  button{
+    width: 100%;
+  }
+
+  ul{
+    flex-direction: column;
+    width: 75%;
+  }
+}
