@@ -20,10 +20,21 @@ function getFetch(){
       });
 }
 
+if(!localStorage.darkMode){
+  localStorage.setItem('darkMode', false)
+}else if(localStorage.getItem('darkMode') === 'true'){
+  document.querySelector('body').classList.toggle('darkmode')
+}
+
 getFetch()
 
 document.querySelector('#newArtpiece').addEventListener('click', getFetch)
 
 document.querySelector('#darkModeToggle').addEventListener('click', () => {
    document.querySelector('body').classList.toggle('darkmode')
+  if(localStorage.getItem('darkMode') === 'false'){
+    localStorage.setItem('darkMode', true)
+  }else{
+    localStorage.setItem('darkMode', false)
+   }
 })

@@ -18,16 +18,30 @@ body{
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  font-size: 62.5%;
 }
 
 h1{
   text-align: center;
+  font-size: 3rem;
 }
+
+h2{
+  font-family: 'Sanchez';
+}
+
+h4{
+  color: lightgrey;
+  size: 10px;
+  text-align: right;
+}
+
 
 img{
   display: block;
   margin: 0 auto;
-  height: 500px;
+  max-height: 600px;
 }
 
 section{
@@ -59,12 +73,6 @@ a{
 
 a:hover{
   background-color: aquamarine;
-}
-
-h4{
-  color: lightgrey;
-  size: 10px;
-  text-align: right;
 }
 
 button{
