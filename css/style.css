@@ -27,6 +27,17 @@ h1{
   font-size: 3rem;
 }
 
+h2{
+  font-family: 'Sanchez';
+}
+
+h4{
+  color: lightgrey;
+  size: 10px;
+  text-align: right;
+}
+
+
 img{
   display: block;
   margin: 0 auto;
@@ -62,12 +73,6 @@ a{
 
 a:hover{
   background-color: aquamarine;
-}
-
-h4{
-  color: lightgrey;
-  size: 10px;
-  text-align: right;
 }
 
 button{
